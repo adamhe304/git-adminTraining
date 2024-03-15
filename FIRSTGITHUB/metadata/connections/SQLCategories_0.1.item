@@ -1,13 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendMetadata:DatabaseConnection xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" AdditionalParams="noDatetimeStringSync=true" DatabaseType="Microsoft SQL Server" DbmsId="id_MSSQL" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" NullChar="" Password="enc:system.encryption.key.v1:kfW4Iu/4Z7rFWIen303NxlnGS7hyaFGD9PlzUgH7vN21d8KKmUnVUw==" Port="1433" ProductId="SQL_SERVER" SID="Northwind" SQLMode="false" ServerName="10.76.209.203" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:sqlserver://10.76.209.203:1433;DatabaseName=Northwind;noDatetimeStringSync=true" UiSchema="dbo" Username="sa" dbVersionString="MSSQL_PROP" id="_ekXHcOK3Ee6026u8Tlz00Q" label="SQLCategories" name="SQLCategories" supportNLS="false" xmi:id="_iK-o0OK3Ee6026u8Tlz00Q" xmi:version="2.0">
-  <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_iK_28OK3Ee6026u8Tlz00Q"/>
-  <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_iK_28eK3Ee6026u8Tlz00Q"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f334b13f-245e-4e6d-b6ef-0d33ca43e598"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0Al2r1WVudrdOId9rGJ3tsNNo7qTLrdeV5wX+ApRpu+HobzVg6S116D4dQPgnJJ6ymBsDeiPPrZd&#13;
-cCDunlloXA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1f7a028f-d27f-4335-b126-595ee32c3e98"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gB6Bhi8GK96BJ29WOTgKyQZxoMaHeD9HEg2aU6aXRuKx2DtLqaAg/1fkYmVT2HpFroxTfAp+7AJb&#13;
-MWNboXl1TA==</DigestValue></Reference></SignedInfo><SignatureValue>H5pViEa3jOq+c6w6IXXMzwFw4qMTIVaTNBKZR0lnSM5P/RVR2LnrC3hfo/VKfpLbZ+xHpQTiRCG8&#13;
-AlKeFJPQV9SuYTEvoqXv5rLg7gl61oRy8Y2RWyTDDp1WXBPm1MfQE7NA471T9+RwaHrKzsShNWk5&#13;
-dubIL1R1Mjb345DQ3gcgBynjzMhfoGbgUpPWIDdJT0H/+mHh0+CsoDI2xB1ZN9fqbm0hYUfvNxak&#13;
-q/XigJZvGNhHt8ojx10fCi88tgygwEKBVvlmhPbWN7ueA+1in+FrOzRC/j5v+TiOiPzh4mHGEM5w&#13;
-SfxLrcDWxZI/jee9CcwozUsEzb+5Z2RWA3B0yA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="noDatetimeStringSync=true" DatabaseType="Microsoft SQL Server" DbmsId="id_MSSQL" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" NullChar="" Password="enc:system.encryption.key.v1:kfW4Iu/4Z7rFWIen303NxlnGS7hyaFGD9PlzUgH7vN21d8KKmUnVUw==" Port="1433" ProductId="SQL_SERVER" SID="Northwind" SQLMode="false" ServerName="10.76.209.203" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:sqlserver://10.76.209.203:1433;DatabaseName=Northwind;noDatetimeStringSync=true" UiSchema="dbo" Username="sa" dataPackage="_iNoUMOK3Ee6026u8Tlz00Q" dbVersionString="MSSQL_PROP" id="_ekXHcOK3Ee6026u8Tlz00Q" label="SQLCategories" name="SQLCategories" supportNLS="false" xmi:id="_iK-o0OK3Ee6026u8Tlz00Q">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_iK_28OK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="package filter" value="" xmi:id="_iNLBMOK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="Status" value="" xmi:id="_iNLoQOK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_iNLoQeK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_iNLoQuK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="Description" value="" xmi:id="_iNLoQ-K3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="Author" value="" xmi:id="_iNLoROK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="otherParameter" xmi:id="_iNLoReK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_iNYckOK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="DB ProductVersion" value="14.00.1000" xmi:id="_iNYckeK3Ee6026u8Tlz00Q"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_iNYckuK3Ee6026u8Tlz00Q"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_iK_28eK3Ee6026u8Tlz00Q"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_iK-o0OK3Ee6026u8Tlz00Q" name="Northwind" xmi:id="_iNoUMOK3Ee6026u8Tlz00Q">
+    <ownedElement name="dbo" xmi:id="_iNoUMeK3Ee6026u8Tlz00Q" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d2a00d8f-271b-4cba-868b-806d100ea5bf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0qVEsk10U3xi7d+ADYF/yzLIMmvbtlbk94wQp7WMw8KBKzP7TjkMZPFeS0ypE68/txDLnLQmbbQ5&#13;
+JMbVZTOOHQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1401c4e7-ac9e-4eb9-b279-f958416961bb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mf8Wss2cWAKFvaYnCAgB1qX5HQuhKQyFIAnYq9TGDAddx1bl1HHSVnBnenbNT/qBdUTy+hDU7283&#13;
+pcQRl0UHxw==</DigestValue></Reference></SignedInfo><SignatureValue>XYt+LVYRIZJES7+RMsVabBZHHUnP28lH5fOJDB585Jk86DU3PyQMfp+NqS7bjJMi2eFWXYq2uRDC&#13;
+DzELwslu6OLonmLf7rzrs7hsH6wukiWoX53+NUWM8IJFqTUBQb9HX/mfRwJKkltNO+OCBgr/9/w1&#13;
+JMH4f97Po0fpwWtI02vWc6L8K5N6tLnXyW9pgxqIquZkO0pkx1rR21yx1Wk4+B0bfMSjzuRSwZDf&#13;
+g0zPVe94Lp7trVvJ/kG6mCXt1dd1jKxZIFVD9HWxeRzSE91On2K2rFVW8TR1rJAIMJB+UHptWOME&#13;
+9y6Yiyu4AIxr3snO4c3Y94E9+MkW3KPDjqyrCA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -29,4 +44,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1f7a028f-d27f-4335-b126-595ee32c3e98" Target="#_f334b13f-245e-4e6d-b6ef-0d33ca43e598"><Timestamp>2024-03-15 10:33:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:DatabaseConnection>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1401c4e7-ac9e-4eb9-b279-f958416961bb" Target="#_d2a00d8f-271b-4cba-868b-806d100ea5bf"><Timestamp>2024-03-15 10:34:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
